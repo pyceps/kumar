@@ -7,5 +7,7 @@
     {"name":"spr_knight_idle_forward","order":1,"path":"sprites/spr_knight_idle_forward/spr_knight_idle_forward.yy",},
     {"name":"spr_knight_running_backward","order":4,"path":"sprites/spr_knight_running_backward/spr_knight_running_backward.yy",},
     {"name":"spr_knight_running_forward","order":2,"path":"sprites/spr_knight_running_forward/spr_knight_running_forward.yy",},
+    {"name":"Sprite34","order":8,"path":"sprites/Sprite34/Sprite34.yy",},
+    {"name":"spr_tileset2","order":7,"path":"tilesets/spr_tileset2/spr_tileset2.yy",},
   ],
 }
