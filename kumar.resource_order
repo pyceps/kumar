@@ -1,0 +1,11 @@
+{
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"spr_knight_combat_backward","order":6,"path":"sprites/spr_knight_combat_backward/spr_knight_combat_backward.yy",},
+    {"name":"spr_knight_combat_forward","order":5,"path":"sprites/spr_knight_combat_forward/spr_knight_combat_forward.yy",},
+    {"name":"spr_knight_idle_backward","order":3,"path":"sprites/spr_knight_idle_backward/spr_knight_idle_backward.yy",},
+    {"name":"spr_knight_idle_forward","order":1,"path":"sprites/spr_knight_idle_forward/spr_knight_idle_forward.yy",},
+    {"name":"spr_knight_running_backward","order":4,"path":"sprites/spr_knight_running_backward/spr_knight_running_backward.yy",},
+    {"name":"spr_knight_running_forward","order":2,"path":"sprites/spr_knight_running_forward/spr_knight_running_forward.yy",},
+  ],
+}
