@@ -1,25 +1,25 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"spr_tileset2",
+  "%Name":"tileset_knight",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"spr_tileset2",
+  "name":"tileset_knight",
   "out_columns":10,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"Tile Sets",
+    "path":"folders/Tile Sets.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"Sprite34",
-    "path":"sprites/Sprite34/Sprite34.yy",
+    "name":"spr_tileset_knight",
+    "path":"sprites/spr_tileset_knight/spr_tileset_knight.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

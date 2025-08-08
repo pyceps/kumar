@@ -1,32 +1,37 @@
-if keyboard_check(ord("D")) {
-    hor_movement += move_spd
-} 
+var horMov = keyboard_check(ord("D")) - keyboard_check(ord("A"))
+var verMov = keyboard_check(ord("S")) - keyboard_check(ord("W"))
 
-if keyboard_check(ord("A")) {
-    hor_movement  -= move_spd
-}
-
-if hor_movement > 0 {
-    sprite_index = spr_knight_running_right
-    obj_direction = 1
-    x += hor_movement
-} else if hor_movement < 0 {
-    sprite_index = spr_knight_running_left
-    obj_direction = -1
-    x += hor_movement
+if horMov != 0 or verMov != 0 {
+    if horMov > 0 {
+        sprite_index = spr_knight_running_right
+        dir = PlayerDirection.Right
+        
+    } else if horMov < 0 {
+        sprite_index = spr_knight_running_left
+        dir = PlayerDirection.Left
+    }
+    if verMov > 0 {
+        sprite_index = spr_knight_running_backward
+        dir = PlayerDirection.Down
+    } else if verMov < 0 {
+        sprite_index = spr_knight_running_forward
+        dir = PlayerDirection.Up
+    }
 } else {
-    if obj_direction == 1 {
-        sprite_index = spr_knight_idle_right
-    } else if obj_direction == -1 {
-        sprite_index = spr_knight_idle_left
+    switch (dir) {
+        case PlayerDirection.Right:
+            sprite_index = spr_knight_idle_right
+        break;
+        case PlayerDirection.Left:
+            sprite_index = spr_knight_idle_left
+        break;
+        case PlayerDirection.Up:
+            sprite_index = spr_knight_idle_forward
+        break;
+        case PlayerDirection.Down:
+            sprite_index = spr_knight_idle_backward
+        break;
     }
 }
 
-if keyboard_check(ord("W")) {
-    y -= move_spd
-}
-if keyboard_check(ord("S")) {
-    y += move_spd
-}
-
-hor_movement = 0
+move_and_collide(horMov, verMov, wallTiles)

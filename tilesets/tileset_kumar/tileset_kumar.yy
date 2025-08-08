@@ -1,13 +1,13 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"tileset_floors",
+  "%Name":"tileset_kumar",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"tileset_floors",
+  "name":"tileset_kumar",
   "out_columns":8,
   "out_tilehborder":2,
   "out_tilevborder":2,
@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_tileset",
-    "path":"sprites/spr_tileset/spr_tileset.yy",
+    "name":"spr_tileset_kumar",
+    "path":"sprites/spr_tileset_kumar/spr_tileset_kumar.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

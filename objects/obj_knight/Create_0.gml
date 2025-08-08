@@ -1,3 +1,9 @@
-move_spd = 1
-hor_movement = 0
-obj_direction = 1
+move_spd = 1.5
+wallTiles = layer_tilemap_get_id("Tiles_Walls")
+enum PlayerDirection {
+    Right,
+    Left,
+    Up,
+    Down
+}
+dir = PlayerDirection.Right
