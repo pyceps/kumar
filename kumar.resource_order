@@ -2,8 +2,12 @@
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
     {"name":"TheKnightRoom","order":1,"path":"rooms/TheKnightRoom/TheKnightRoom.yy",},
+    {"name":"spr_bloodeffect","order":12,"path":"sprites/spr_bloodeffect/spr_bloodeffect.yy",},
+    {"name":"spr_healthbar","order":9,"path":"sprites/spr_healthbar/spr_healthbar.yy",},
     {"name":"spr_knight_combat_backward","order":6,"path":"sprites/spr_knight_combat_backward/spr_knight_combat_backward.yy",},
     {"name":"spr_knight_combat_forward","order":5,"path":"sprites/spr_knight_combat_forward/spr_knight_combat_forward.yy",},
+    {"name":"spr_knight_combat_left","order":11,"path":"sprites/spr_knight_combat_left/spr_knight_combat_left.yy",},
+    {"name":"spr_knight_combat_right","order":10,"path":"sprites/spr_knight_combat_right/spr_knight_combat_right.yy",},
     {"name":"spr_knight_idle_backward","order":3,"path":"sprites/spr_knight_idle_backward/spr_knight_idle_backward.yy",},
     {"name":"spr_knight_idle_forward","order":1,"path":"sprites/spr_knight_idle_forward/spr_knight_idle_forward.yy",},
     {"name":"spr_knight_running_backward","order":4,"path":"sprites/spr_knight_running_backward/spr_knight_running_backward.yy",},
